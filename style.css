@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.5);
+    color: #7122fa;
+}
+
+.player {
+    background-color: #d0d0da;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+#buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#playlistbutton  {
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #e6e6e6;
+    border: 0px;
+    font-size: 15px;
+}
+
+#playlistbutton:hover {
+    background-color: #c8c6c6;
+}
+
+.btn {
+    background-color: #45c1ad;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.seekbar {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #387f6d;
+}
+
+#seek-bar {
+    width: 50%;
+    height: 10px;
+    margin: 10px 0;
+}
+
+.playlist {
+    margin-top: 20px;
+}
+
+.playlist ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.playlist li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.playlist li:hover {
+    background-color: #f0f0f0;
+}
+
+.playlist li.active {
+    font-weight: bold;
+    font-size: 20px;
+    color: #1a791d;
+}
+#playlist {
+    display: none;
+}
+
+#backButton {
+    display: none;
+    float: right;
+    font-weight: bold;
+}
